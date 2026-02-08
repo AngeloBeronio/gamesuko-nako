@@ -27,47 +27,68 @@ Partial Class Form1
         PictureBox2 = New PictureBox()
         PictureBox3 = New PictureBox()
         PictureBox4 = New PictureBox()
-        Button1 = New Button()
         PictureBox5 = New PictureBox()
         Timer1 = New Timer(components)
-        Cat1 = New PictureBox()
-        Mango = New PictureBox()
-        Red1 = New PictureBox()
-        Red2 = New PictureBox()
+        BigCat = New PictureBox()
+        Finish = New PictureBox()
+        Cat3 = New PictureBox()
         PictureBox6 = New PictureBox()
         PictureBox7 = New PictureBox()
         PictureBox8 = New PictureBox()
         PictureBox9 = New PictureBox()
         PictureBox10 = New PictureBox()
-        Red3 = New PictureBox()
-        Red4 = New PictureBox()
-        Red5 = New PictureBox()
-        Red6 = New PictureBox()
-        Button2 = New Button()
+        MT3 = New PictureBox()
+        MT2 = New PictureBox()
+        MT5 = New PictureBox()
+        MT4 = New PictureBox()
+        Cat4 = New PictureBox()
+        Cat2 = New PictureBox()
+        MT1 = New PictureBox()
+        MT6 = New PictureBox()
+        Panel1 = New Panel()
+        Panel2 = New Panel()
+        Panel3 = New Panel()
+        Panel4 = New Panel()
+        PictureBox12 = New PictureBox()
+        Panel5 = New Panel()
+        Panel6 = New Panel()
+        PictureBox14 = New PictureBox()
+        Cat1 = New PictureBox()
+        Timer2 = New Timer(components)
+        Label1 = New Label()
+        Timer3 = New Timer(components)
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Cat1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Mango, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Red1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Red2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BigCat, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Finish, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Cat3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox7, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Red3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Red4, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Red5, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Red6, ComponentModel.ISupportInitialize).BeginInit()
+        CType(MT3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(MT2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(MT5, ComponentModel.ISupportInitialize).BeginInit()
+        CType(MT4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Cat4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Cat2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(MT1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(MT6, ComponentModel.ISupportInitialize).BeginInit()
+        Panel1.SuspendLayout()
+        Panel4.SuspendLayout()
+        CType(PictureBox12, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox14, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Cat1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox1
         ' 
         PictureBox1.BackColor = SystemColors.ActiveCaptionText
-        PictureBox1.Location = New Point(182, 112)
+        PictureBox1.Location = New Point(397, 215)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(1171, 19)
         PictureBox1.TabIndex = 0
@@ -76,7 +97,7 @@ Partial Class Form1
         ' PictureBox2
         ' 
         PictureBox2.BackColor = SystemColors.ActiveCaptionText
-        PictureBox2.Location = New Point(182, 660)
+        PictureBox2.Location = New Point(397, 763)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(1171, 19)
         PictureBox2.TabIndex = 1
@@ -85,7 +106,7 @@ Partial Class Form1
         ' PictureBox3
         ' 
         PictureBox3.BackColor = SystemColors.ActiveCaptionText
-        PictureBox3.Location = New Point(182, 127)
+        PictureBox3.Location = New Point(397, 230)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(22, 536)
         PictureBox3.TabIndex = 2
@@ -94,74 +115,64 @@ Partial Class Form1
         ' PictureBox4
         ' 
         PictureBox4.BackColor = SystemColors.ActiveCaptionText
-        PictureBox4.Location = New Point(1331, 127)
+        PictureBox4.Location = New Point(1546, 230)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(22, 536)
         PictureBox4.TabIndex = 3
         PictureBox4.TabStop = False
         ' 
-        ' Button1
-        ' 
-        Button1.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(385, 685)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(197, 83)
-        Button1.TabIndex = 4
-        Button1.Text = "HARD MODE"
-        Button1.UseVisualStyleBackColor = True
-        ' 
         ' PictureBox5
         ' 
         PictureBox5.BackColor = SystemColors.ActiveCaption
-        PictureBox5.Location = New Point(239, 374)
+        PictureBox5.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_071757
+        PictureBox5.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox5.Location = New Point(4, 12)
         PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(34, 35)
+        PictureBox5.Size = New Size(26, 22)
         PictureBox5.TabIndex = 5
         PictureBox5.TabStop = False
         ' 
         ' Timer1
         ' 
         ' 
-        ' Cat1
+        ' BigCat
         ' 
-        Cat1.Image = My.Resources.Resources.CAT
-        Cat1.Location = New Point(833, 137)
-        Cat1.Name = "Cat1"
-        Cat1.Size = New Size(288, 176)
-        Cat1.TabIndex = 6
-        Cat1.TabStop = False
+        BigCat.BackgroundImageLayout = ImageLayout.Stretch
+        BigCat.Image = My.Resources.Resources.Screenshot_2026_02_08_073937
+        BigCat.Location = New Point(1024, 240)
+        BigCat.Name = "BigCat"
+        BigCat.Size = New Size(288, 176)
+        BigCat.SizeMode = PictureBoxSizeMode.StretchImage
+        BigCat.TabIndex = 6
+        BigCat.TabStop = False
         ' 
-        ' Mango
+        ' Finish
         ' 
-        Mango.Image = My.Resources.Resources.MANGO_ICECREAM
-        Mango.Location = New Point(1173, 137)
-        Mango.Name = "Mango"
-        Mango.Size = New Size(143, 126)
-        Mango.TabIndex = 8
-        Mango.TabStop = False
+        Finish.BackColor = Color.DarkOliveGreen
+        Finish.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_094852
+        Finish.BackgroundImageLayout = ImageLayout.Stretch
+        Finish.Location = New Point(1379, 451)
+        Finish.Name = "Finish"
+        Finish.Size = New Size(161, 64)
+        Finish.SizeMode = PictureBoxSizeMode.StretchImage
+        Finish.TabIndex = 8
+        Finish.TabStop = False
         ' 
-        ' Red1
+        ' Cat3
         ' 
-        Red1.BackColor = Color.Brown
-        Red1.Location = New Point(589, 137)
-        Red1.Name = "Red1"
-        Red1.Size = New Size(71, 64)
-        Red1.TabIndex = 9
-        Red1.TabStop = False
-        ' 
-        ' Red2
-        ' 
-        Red2.BackColor = Color.Brown
-        Red2.Location = New Point(458, 590)
-        Red2.Name = "Red2"
-        Red2.Size = New Size(71, 64)
-        Red2.TabIndex = 10
-        Red2.TabStop = False
+        Cat3.BackColor = Color.Brown
+        Cat3.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_093828
+        Cat3.BackgroundImageLayout = ImageLayout.Stretch
+        Cat3.Location = New Point(582, 693)
+        Cat3.Name = "Cat3"
+        Cat3.Size = New Size(71, 64)
+        Cat3.TabIndex = 10
+        Cat3.TabStop = False
         ' 
         ' PictureBox6
         ' 
         PictureBox6.BackColor = SystemColors.ActiveCaptionText
-        PictureBox6.Location = New Point(743, 127)
+        PictureBox6.Location = New Point(958, 230)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(22, 106)
         PictureBox6.TabIndex = 11
@@ -170,7 +181,7 @@ Partial Class Form1
         ' PictureBox7
         ' 
         PictureBox7.BackColor = SystemColors.ActiveCaptionText
-        PictureBox7.Location = New Point(743, 557)
+        PictureBox7.Location = New Point(958, 660)
         PictureBox7.Name = "PictureBox7"
         PictureBox7.Size = New Size(22, 106)
         PictureBox7.TabIndex = 12
@@ -179,7 +190,7 @@ Partial Class Form1
         ' PictureBox8
         ' 
         PictureBox8.BackColor = SystemColors.ActiveCaptionText
-        PictureBox8.Location = New Point(330, 127)
+        PictureBox8.Location = New Point(545, 230)
         PictureBox8.Name = "PictureBox8"
         PictureBox8.Size = New Size(22, 106)
         PictureBox8.TabIndex = 13
@@ -188,7 +199,7 @@ Partial Class Form1
         ' PictureBox9
         ' 
         PictureBox9.BackColor = SystemColors.ActiveCaptionText
-        PictureBox9.Location = New Point(330, 557)
+        PictureBox9.Location = New Point(545, 660)
         PictureBox9.Name = "PictureBox9"
         PictureBox9.Size = New Size(22, 106)
         PictureBox9.TabIndex = 14
@@ -197,83 +208,229 @@ Partial Class Form1
         ' PictureBox10
         ' 
         PictureBox10.BackColor = SystemColors.ActiveCaptionText
-        PictureBox10.Location = New Point(1136, 127)
+        PictureBox10.Location = New Point(1351, 289)
         PictureBox10.Name = "PictureBox10"
-        PictureBox10.Size = New Size(22, 417)
+        PictureBox10.Size = New Size(22, 389)
         PictureBox10.TabIndex = 15
         PictureBox10.TabStop = False
         ' 
-        ' Red3
+        ' MT3
         ' 
-        Red3.BackColor = Color.Brown
-        Red3.Location = New Point(1164, 283)
-        Red3.Name = "Red3"
-        Red3.Size = New Size(37, 18)
-        Red3.TabIndex = 16
-        Red3.TabStop = False
+        MT3.BackColor = Color.Brown
+        MT3.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_094305
+        MT3.BackgroundImageLayout = ImageLayout.Stretch
+        MT3.Location = New Point(1379, 414)
+        MT3.Name = "MT3"
+        MT3.Size = New Size(37, 18)
+        MT3.TabIndex = 16
+        MT3.TabStop = False
         ' 
-        ' Red4
+        ' MT2
         ' 
-        Red4.BackColor = Color.Brown
-        Red4.Location = New Point(1288, 365)
-        Red4.Name = "Red4"
-        Red4.Size = New Size(37, 18)
-        Red4.TabIndex = 17
-        Red4.TabStop = False
+        MT2.BackColor = Color.Brown
+        MT2.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_094349
+        MT2.BackgroundImageLayout = ImageLayout.Stretch
+        MT2.Location = New Point(1503, 350)
+        MT2.Name = "MT2"
+        MT2.Size = New Size(37, 18)
+        MT2.TabIndex = 17
+        MT2.TabStop = False
         ' 
-        ' Red5
+        ' MT5
         ' 
-        Red5.BackColor = Color.Brown
-        Red5.Location = New Point(1164, 443)
-        Red5.Name = "Red5"
-        Red5.Size = New Size(37, 18)
-        Red5.TabIndex = 18
-        Red5.TabStop = False
+        MT5.BackColor = Color.Brown
+        MT5.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_094349
+        MT5.BackgroundImageLayout = ImageLayout.Stretch
+        MT5.Location = New Point(1503, 597)
+        MT5.Name = "MT5"
+        MT5.Size = New Size(37, 18)
+        MT5.TabIndex = 18
+        MT5.TabStop = False
         ' 
-        ' Red6
+        ' MT4
         ' 
-        Red6.BackColor = Color.Brown
-        Red6.Location = New Point(1288, 526)
-        Red6.Name = "Red6"
-        Red6.Size = New Size(37, 18)
-        Red6.TabIndex = 19
-        Red6.TabStop = False
+        MT4.BackColor = Color.Brown
+        MT4.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_094305
+        MT4.BackgroundImageLayout = ImageLayout.Stretch
+        MT4.Location = New Point(1379, 534)
+        MT4.Name = "MT4"
+        MT4.Size = New Size(37, 18)
+        MT4.TabIndex = 19
+        MT4.TabStop = False
         ' 
-        ' Button2
+        ' Cat4
         ' 
-        Button2.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button2.Location = New Point(182, 685)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(197, 83)
-        Button2.TabIndex = 20
-        Button2.Text = "NORMAL MODE"
-        Button2.UseVisualStyleBackColor = True
+        Cat4.BackColor = Color.Brown
+        Cat4.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_093828
+        Cat4.BackgroundImageLayout = ImageLayout.Stretch
+        Cat4.Location = New Point(772, 693)
+        Cat4.Name = "Cat4"
+        Cat4.Size = New Size(71, 64)
+        Cat4.TabIndex = 21
+        Cat4.TabStop = False
+        ' 
+        ' Cat2
+        ' 
+        Cat2.BackColor = Color.Brown
+        Cat2.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_093828
+        Cat2.BackgroundImageLayout = ImageLayout.Stretch
+        Cat2.Location = New Point(861, 240)
+        Cat2.Name = "Cat2"
+        Cat2.Size = New Size(71, 64)
+        Cat2.TabIndex = 22
+        Cat2.TabStop = False
+        ' 
+        ' MT1
+        ' 
+        MT1.BackColor = Color.Brown
+        MT1.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_094305
+        MT1.BackgroundImageLayout = ImageLayout.Stretch
+        MT1.Location = New Point(1379, 289)
+        MT1.Name = "MT1"
+        MT1.Size = New Size(37, 18)
+        MT1.TabIndex = 24
+        MT1.TabStop = False
+        ' 
+        ' MT6
+        ' 
+        MT6.BackColor = Color.Brown
+        MT6.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_094305
+        MT6.BackgroundImageLayout = ImageLayout.Stretch
+        MT6.Location = New Point(1379, 660)
+        MT6.Name = "MT6"
+        MT6.Size = New Size(37, 18)
+        MT6.TabIndex = 25
+        MT6.TabStop = False
+        ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.Transparent
+        Panel1.Controls.Add(PictureBox5)
+        Panel1.Controls.Add(Panel2)
+        Panel1.Controls.Add(Panel3)
+        Panel1.Location = New Point(448, 465)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(34, 35)
+        Panel1.TabIndex = 26
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = Color.DimGray
+        Panel2.Location = New Point(0, 3)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(11, 15)
+        Panel2.TabIndex = 27
+        ' 
+        ' Panel3
+        ' 
+        Panel3.BackColor = Color.DimGray
+        Panel3.Location = New Point(23, 3)
+        Panel3.Name = "Panel3"
+        Panel3.Size = New Size(11, 15)
+        Panel3.TabIndex = 28
+        ' 
+        ' Panel4
+        ' 
+        Panel4.BackColor = Color.Transparent
+        Panel4.Controls.Add(PictureBox12)
+        Panel4.Controls.Add(Panel5)
+        Panel4.Controls.Add(Panel6)
+        Panel4.Location = New Point(448, 531)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(34, 35)
+        Panel4.TabIndex = 27
+        ' 
+        ' PictureBox12
+        ' 
+        PictureBox12.BackColor = SystemColors.ActiveCaption
+        PictureBox12.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_072213
+        PictureBox12.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox12.Location = New Point(4, 12)
+        PictureBox12.Name = "PictureBox12"
+        PictureBox12.Size = New Size(26, 22)
+        PictureBox12.TabIndex = 5
+        PictureBox12.TabStop = False
+        ' 
+        ' Panel5
+        ' 
+        Panel5.BackColor = Color.SaddleBrown
+        Panel5.Location = New Point(0, 3)
+        Panel5.Name = "Panel5"
+        Panel5.Size = New Size(11, 15)
+        Panel5.TabIndex = 27
+        ' 
+        ' Panel6
+        ' 
+        Panel6.BackColor = Color.SaddleBrown
+        Panel6.Location = New Point(23, 3)
+        Panel6.Name = "Panel6"
+        Panel6.Size = New Size(11, 15)
+        Panel6.TabIndex = 28
+        ' 
+        ' PictureBox14
+        ' 
+        PictureBox14.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_095934
+        PictureBox14.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox14.Location = New Point(772, 66)
+        PictureBox14.Name = "PictureBox14"
+        PictureBox14.Size = New Size(443, 110)
+        PictureBox14.TabIndex = 28
+        PictureBox14.TabStop = False
+        ' 
+        ' Cat1
+        ' 
+        Cat1.BackColor = Color.Brown
+        Cat1.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_093828
+        Cat1.BackgroundImageLayout = ImageLayout.Stretch
+        Cat1.Location = New Point(658, 240)
+        Cat1.Name = "Cat1"
+        Cat1.Size = New Size(71, 64)
+        Cat1.TabIndex = 29
+        Cat1.TabStop = False
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI Black", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(922, 463)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(75, 86)
+        Label1.TabIndex = 30
+        Label1.Text = "3"
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1520, 777)
-        Controls.Add(Button2)
-        Controls.Add(Red6)
-        Controls.Add(Red5)
-        Controls.Add(Red4)
-        Controls.Add(Red3)
+        BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_095347
+        ClientSize = New Size(1904, 1041)
+        Controls.Add(Label1)
+        Controls.Add(Cat1)
+        Controls.Add(PictureBox14)
+        Controls.Add(Panel4)
+        Controls.Add(Panel1)
+        Controls.Add(MT6)
+        Controls.Add(MT1)
+        Controls.Add(Cat2)
+        Controls.Add(Cat4)
+        Controls.Add(MT4)
+        Controls.Add(MT5)
+        Controls.Add(MT2)
+        Controls.Add(MT3)
         Controls.Add(PictureBox10)
         Controls.Add(PictureBox9)
         Controls.Add(PictureBox8)
         Controls.Add(PictureBox7)
         Controls.Add(PictureBox6)
-        Controls.Add(Red2)
-        Controls.Add(Red1)
-        Controls.Add(Mango)
-        Controls.Add(Cat1)
-        Controls.Add(PictureBox5)
-        Controls.Add(Button1)
+        Controls.Add(Cat3)
+        Controls.Add(Finish)
+        Controls.Add(BigCat)
         Controls.Add(PictureBox4)
         Controls.Add(PictureBox3)
         Controls.Add(PictureBox2)
         Controls.Add(PictureBox1)
+        DoubleBuffered = True
+        KeyPreview = True
         Name = "Form1"
         Text = "Form1"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
@@ -281,31 +438,39 @@ Partial Class Form1
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
-        CType(Cat1, ComponentModel.ISupportInitialize).EndInit()
-        CType(Mango, ComponentModel.ISupportInitialize).EndInit()
-        CType(Red1, ComponentModel.ISupportInitialize).EndInit()
-        CType(Red2, ComponentModel.ISupportInitialize).EndInit()
+        CType(BigCat, ComponentModel.ISupportInitialize).EndInit()
+        CType(Finish, ComponentModel.ISupportInitialize).EndInit()
+        CType(Cat3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox7, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox8, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox9, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox10, ComponentModel.ISupportInitialize).EndInit()
-        CType(Red3, ComponentModel.ISupportInitialize).EndInit()
-        CType(Red4, ComponentModel.ISupportInitialize).EndInit()
-        CType(Red5, ComponentModel.ISupportInitialize).EndInit()
-        CType(Red6, ComponentModel.ISupportInitialize).EndInit()
+        CType(MT3, ComponentModel.ISupportInitialize).EndInit()
+        CType(MT2, ComponentModel.ISupportInitialize).EndInit()
+        CType(MT5, ComponentModel.ISupportInitialize).EndInit()
+        CType(MT4, ComponentModel.ISupportInitialize).EndInit()
+        CType(Cat4, ComponentModel.ISupportInitialize).EndInit()
+        CType(Cat2, ComponentModel.ISupportInitialize).EndInit()
+        CType(MT1, ComponentModel.ISupportInitialize).EndInit()
+        CType(MT6, ComponentModel.ISupportInitialize).EndInit()
+        Panel1.ResumeLayout(False)
+        Panel4.ResumeLayout(False)
+        CType(PictureBox12, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox14, ComponentModel.ISupportInitialize).EndInit()
+        CType(Cat1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents Cat1 As PictureBox
-    Friend WithEvents Mango As PictureBox
+    Friend WithEvents BigCat As PictureBox
+    Friend WithEvents Finish As PictureBox
     Friend WithEvents Red1 As PictureBox
     Friend WithEvents Red2 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
@@ -313,13 +478,29 @@ Partial Class Form1
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents PictureBox10 As PictureBox
-    Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox12 As PictureBox
-    Friend WithEvents Red5 As PictureBox
+    Friend WithEvents MT5 As PictureBox
     Friend WithEvents Red3 As PictureBox
-    Friend WithEvents Red4 As PictureBox
+    Friend WithEvents MT2 As PictureBox
     Friend WithEvents PictureBox15 As PictureBox
-    Friend WithEvents Red6 As PictureBox
-    Friend WithEvents Button2 As Button
+    Friend WithEvents MT4 As PictureBox
+    Friend WithEvents Cat4 As PictureBox
+    Friend WithEvents Cat2 As PictureBox
+    Friend WithEvents Cat3 As PictureBox
+    Friend WithEvents MT1 As PictureBox
+    Friend WithEvents MT6 As PictureBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents PictureBox14 As PictureBox
+    Friend WithEvents Cat1 As PictureBox
+    Friend WithEvents MT3 As PictureBox
+    Friend WithEvents MT As PictureBox
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Timer3 As Timer
 
 End Class
