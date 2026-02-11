@@ -42,7 +42,7 @@
             PictureBox6, PictureBox7, PictureBox8, PictureBox9, PictureBox10
         })
 
-        deathZones.AddRange({Cat1, Cat2, Cat3, BigCat, MT1, MT2, MT3, MT4, MT5, MT6})
+        deathZones.AddRange({Cat1, Cat2, Cat3, Cat4, BigCat, MT1, MT2, MT3, MT4, MT5, MT6})
 
         ResetPlayers()
     End Sub
