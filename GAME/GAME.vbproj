@@ -9,6 +9,76 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Screenshot 2026-02-08 221926.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225607.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225614.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225622.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225630.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225645.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225654.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225708.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225715.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225726.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225734.png" />
+    <None Remove="Images\Screenshot 2026-02-08 225741.png" />
+    <None Remove="Images\Screenshot 2026-02-09 062330.png" />
+    <None Remove="Images\Screenshot 2026-02-09 062339.png" />
+    <None Remove="Images\Screenshot 2026-02-09 062517.png" />
+    <None Remove="Images\Screenshot 2026-02-09 062528.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Screenshot 2026-02-08 221926.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225607.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225614.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225622.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225630.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225645.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225654.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225708.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225715.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225726.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225734.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-08 225741.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-09 062330.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-09 062339.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-09 062517.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Screenshot 2026-02-09 062528.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
@@ -25,6 +95,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Update="My Project\Settings.Designer.vb">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +114,11 @@
     <None Update="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
 

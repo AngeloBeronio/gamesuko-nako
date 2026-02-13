@@ -29,6 +29,7 @@ Partial Class Form3
         ' Button1
         ' 
         Button1.BackColor = Color.MediumSeaGreen
+        Button1.Cursor = Cursors.Hand
         Button1.Font = New Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.ForeColor = Color.White
         Button1.Location = New Point(561, 814)
@@ -41,6 +42,7 @@ Partial Class Form3
         ' Button2
         ' 
         Button2.BackColor = Color.MediumSeaGreen
+        Button2.Cursor = Cursors.Hand
         Button2.Font = New Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button2.ForeColor = Color.White
         Button2.Location = New Point(1160, 814)

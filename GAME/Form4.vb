@@ -11,25 +11,25 @@
 
     Dim cardImages() As String = {
         "",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225741.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225734.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225726.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225715.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225708.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225654.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225645.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225630.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225622.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225614.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 225607.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-09 062330.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-09 062339.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-09 062517.png",
-        "C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-09 062528.png"
+        "Images\Screenshot 2026-02-08 225741.png",
+        "Images\Screenshot 2026-02-08 225734.png",
+        "Images\Screenshot 2026-02-08 225726.png",
+        "Images\Screenshot 2026-02-08 225715.png",
+        "Images\Screenshot 2026-02-08 225708.png",
+        "Images\Screenshot 2026-02-08 225654.png",
+        "Images\Screenshot 2026-02-08 225645.png",
+        "Images\Screenshot 2026-02-08 225630.png",
+        "Images\Screenshot 2026-02-08 225622.png",
+        "Images\Screenshot 2026-02-08 225614.png",
+        "Images\Screenshot 2026-02-08 225607.png",
+        "Images\Screenshot 2026-02-09 062330.png",
+        "Images\Screenshot 2026-02-09 062339.png",
+        "Images\Screenshot 2026-02-09 062517.png",
+        "Images\Screenshot 2026-02-09 062528.png"
     }
 
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        backImage = Image.FromFile("C:\Users\anthn\OneDrive\Pictures\Screenshots\Screenshot 2026-02-08 221926.png")
+        backImage = Image.FromFile("Images\Screenshot 2026-02-08 221926.png")
         Label1.Hide()
         SetupPairs()
         ShuffleCards()

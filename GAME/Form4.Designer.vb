@@ -64,6 +64,7 @@ Partial Class Form4
         Panel3 = New Panel()
         Panel4 = New Panel()
         Timer2 = New Timer(components)
+        Panel5 = New Panel()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
@@ -405,7 +406,7 @@ Partial Class Form4
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI Black", 48.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Segoe UI Black", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.Location = New Point(795, 526)
         Label1.Name = "Label1"
         Label1.Size = New Size(371, 86)
@@ -415,8 +416,8 @@ Partial Class Form4
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI Black", 28.0F, FontStyle.Bold)
-        Label2.Location = New Point(534, 120)
+        Label2.Font = New Font("Segoe UI Black", 28F, FontStyle.Bold)
+        Label2.Location = New Point(554, 121)
         Label2.Name = "Label2"
         Label2.Size = New Size(820, 51)
         Label2.TabIndex = 31
@@ -425,8 +426,8 @@ Partial Class Form4
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI Black", 48.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(795, 14)
+        Label3.Font = New Font("Segoe UI Black", 48F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(822, 9)
         Label3.Name = "Label3"
         Label3.Size = New Size(285, 86)
         Label3.TabIndex = 32
@@ -436,7 +437,7 @@ Partial Class Form4
         ' 
         PictureBox31.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_071757
         PictureBox31.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox31.Location = New Point(579, 126)
+        PictureBox31.Location = New Point(599, 127)
         PictureBox31.Name = "PictureBox31"
         PictureBox31.Size = New Size(40, 40)
         PictureBox31.TabIndex = 33
@@ -446,7 +447,7 @@ Partial Class Form4
         ' 
         PictureBox32.BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_072213
         PictureBox32.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox32.Location = New Point(1003, 126)
+        PictureBox32.Location = New Point(1023, 127)
         PictureBox32.Name = "PictureBox32"
         PictureBox32.Size = New Size(40, 40)
         PictureBox32.TabIndex = 34
@@ -455,7 +456,7 @@ Partial Class Form4
         ' Panel1
         ' 
         Panel1.BackColor = SystemColors.ControlDarkDark
-        Panel1.Location = New Point(565, 109)
+        Panel1.Location = New Point(585, 110)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(21, 22)
         Panel1.TabIndex = 35
@@ -463,7 +464,7 @@ Partial Class Form4
         ' Panel2
         ' 
         Panel2.BackColor = SystemColors.ControlDarkDark
-        Panel2.Location = New Point(615, 109)
+        Panel2.Location = New Point(635, 110)
         Panel2.Name = "Panel2"
         Panel2.Size = New Size(21, 22)
         Panel2.TabIndex = 36
@@ -471,7 +472,7 @@ Partial Class Form4
         ' Panel3
         ' 
         Panel3.BackColor = Color.SaddleBrown
-        Panel3.Location = New Point(986, 109)
+        Panel3.Location = New Point(1006, 110)
         Panel3.Name = "Panel3"
         Panel3.Size = New Size(21, 22)
         Panel3.TabIndex = 37
@@ -479,17 +480,28 @@ Partial Class Form4
         ' Panel4
         ' 
         Panel4.BackColor = Color.SaddleBrown
-        Panel4.Location = New Point(1037, 109)
+        Panel4.Location = New Point(1057, 110)
         Panel4.Name = "Panel4"
         Panel4.Size = New Size(21, 22)
         Panel4.TabIndex = 38
         ' 
+        ' Timer2
+        ' 
+        ' 
+        ' Panel5
+        ' 
+        Panel5.Location = New Point(1277, 121)
+        Panel5.Name = "Panel5"
+        Panel5.Size = New Size(97, 51)
+        Panel5.TabIndex = 39
+        ' 
         ' Form4
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_095347
         ClientSize = New Size(1904, 1041)
+        Controls.Add(Panel5)
         Controls.Add(Panel4)
         Controls.Add(Panel3)
         Controls.Add(Panel2)
@@ -608,4 +620,5 @@ Partial Class Form4
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Timer2 As Timer
+    Friend WithEvents Panel5 As Panel
 End Class
