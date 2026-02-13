@@ -56,7 +56,7 @@ Partial Class Form3
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.game_bg
+        BackgroundImage = My.Resources.Resources._1
         ClientSize = New Size(1904, 1041)
         Controls.Add(Button2)
         Controls.Add(Button1)

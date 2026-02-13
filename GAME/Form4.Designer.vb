@@ -65,6 +65,7 @@ Partial Class Form4
         Panel4 = New Panel()
         Timer2 = New Timer(components)
         Panel5 = New Panel()
+        Button1 = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
@@ -495,12 +496,26 @@ Partial Class Form4
         Panel5.Size = New Size(97, 51)
         Panel5.TabIndex = 39
         ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.OliveDrab
+        Button1.Cursor = Cursors.Hand
+        Button1.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = Color.White
+        Button1.Location = New Point(117, 67)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(173, 83)
+        Button1.TabIndex = 40
+        Button1.Text = "BACK"
+        Button1.UseVisualStyleBackColor = False
+        ' 
         ' Form4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_095347
+        BackgroundImage = My.Resources.Resources._2
         ClientSize = New Size(1904, 1041)
+        Controls.Add(Button1)
         Controls.Add(Panel5)
         Controls.Add(Panel4)
         Controls.Add(Panel3)
@@ -621,4 +636,5 @@ Partial Class Form4
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Panel5 As Panel
+    Friend WithEvents Button1 As Button
 End Class

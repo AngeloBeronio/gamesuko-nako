@@ -57,6 +57,7 @@ Partial Class Form1
         Timer2 = New Timer(components)
         Label1 = New Label()
         Timer3 = New Timer(components)
+        Button1 = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
@@ -398,12 +399,26 @@ Partial Class Form1
         Label1.TabIndex = 30
         Label1.Text = "3"
         ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.OliveDrab
+        Button1.Cursor = Cursors.Hand
+        Button1.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.ForeColor = Color.White
+        Button1.Location = New Point(100, 66)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(173, 83)
+        Button1.TabIndex = 31
+        Button1.Text = "BACK"
+        Button1.UseVisualStyleBackColor = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.Screenshot_2026_02_08_095347
+        BackgroundImage = My.Resources.Resources._2
         ClientSize = New Size(1904, 1041)
+        Controls.Add(Button1)
         Controls.Add(Label1)
         Controls.Add(Cat1)
         Controls.Add(PictureBox14)
@@ -502,5 +517,6 @@ Partial Class Form1
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Label1 As Label
     Friend WithEvents Timer3 As Timer
+    Friend WithEvents Button1 As Button
 
 End Class

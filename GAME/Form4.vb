@@ -126,9 +126,9 @@
         If matchedPairs = TOTAL_PAIRS Then ShowWinner()
     End Sub
 
-	Sub ShowWinner()
-		Label1.Show()
-		If (playerScore(1) > playerScore(2)) Then
+    Sub ShowWinner()
+        Label1.Show()
+        If (playerScore(1) > playerScore(2)) Then
             Label1.Text = "Player 1 Wins!"
         ElseIf (playerScore(2) > playerScore(1)) Then
             Label1.Text = "Player 2 Wins!"
@@ -139,8 +139,16 @@
         Timer2.Start()
     End Sub
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-		Timer2.Stop()
-		Me.Hide()
-		Form3.Show()
-	End Sub
+        Timer2.Stop()
+        Me.Hide()
+        Form3.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        SetupPairs()
+        ShuffleCards()
+        ResetBoard()
+        Me.Hide()
+        Form3.Show()
+    End Sub
 End Class

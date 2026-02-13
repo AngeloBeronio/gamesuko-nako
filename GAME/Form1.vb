@@ -111,10 +111,10 @@
         If e.KeyCode = Keys.A Then p1Left = True
         If e.KeyCode = Keys.D Then p1Right = True
 
-        If e.KeyCode = Keys.Up Then p2Up = True
-        If e.KeyCode = Keys.Down Then p2Down = True
-        If e.KeyCode = Keys.Left Then p2Left = True
-        If e.KeyCode = Keys.Right Then p2Right = True
+        If e.KeyCode = Keys.I Then p2Up = True
+        If e.KeyCode = Keys.K Then p2Down = True
+        If e.KeyCode = Keys.J Then p2Left = True
+        If e.KeyCode = Keys.L Then p2Right = True
     End Sub
 
     Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles Me.KeyUp
@@ -123,10 +123,10 @@
         If e.KeyCode = Keys.A Then p1Left = False
         If e.KeyCode = Keys.D Then p1Right = False
 
-        If e.KeyCode = Keys.Up Then p2Up = False
-        If e.KeyCode = Keys.Down Then p2Down = False
-        If e.KeyCode = Keys.Left Then p2Left = False
-        If e.KeyCode = Keys.Right Then p2Right = False
+        If e.KeyCode = Keys.I Then p2Up = False
+        If e.KeyCode = Keys.K Then p2Down = False
+        If e.KeyCode = Keys.J Then p2Left = False
+        If e.KeyCode = Keys.L Then p2Right = False
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -223,5 +223,10 @@
             Form3.Show()
             ResetGame()
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Hide()
+        Form3.Show()
     End Sub
 End Class
